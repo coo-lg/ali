@@ -1,0 +1,28 @@
+{
+    "gateway": {
+        "productKey": "",
+        "deviceName": "",
+        "productSecret": "",
+        "deviceSecret": ""
+    },
+    "subDevice": [
+        {
+            "productKey": "",
+            "deviceName": ""
+        },
+        {
+            "productKey": "",
+            "deviceName": ""
+        },
+        {
+            "productKey": "",
+            "deviceName": ""
+        }
+    ],
+"device": {
+    "productKey": "a1LG4lT44Vc",
+    "productSecret": "3P8LxC4c5rDH7gTe",
+    "deviceName": "wifi_ktj",
+    "deviceSecret": "TYnqceo9gaJmps6ytO59jsXP6RROqBpV"
+}
+}

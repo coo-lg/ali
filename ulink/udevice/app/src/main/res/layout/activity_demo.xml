@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:text="快速接入示例（灯）"-->
+        <!--android:gravity="center"-->
+        <!--android:onClick="startLightExample"-->
+        <!--android:background="@drawable/normalbutton_background"-->
+        <!--android:textColor="@drawable/normalbutton_textcolor"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Uwifi空调（wifi_kt）"
+        android:gravity="center"
+        android:onClick="startLPTest"
+        android:background="@drawable/normalbutton_background"
+        android:textColor="@drawable/normalbutton_textcolor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/normalbutton_background"
+        android:gravity="center"
+        android:onClick="startLabelTest"
+        android:text="设备标签"
+        android:textColor="@drawable/normalbutton_textcolor" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/normalbutton_background"
+        android:gravity="center"
+        android:onClick="startCOTATest"
+        android:text="COTA"
+        android:textColor="@drawable/normalbutton_textcolor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/normalbutton_background"
+        android:gravity="center"
+        android:onClick="startShadowTest"
+        android:text="设备影子（基础版功能）"
+        android:textColor="@drawable/normalbutton_textcolor" />
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:gravity="center"-->
+        <!--android:onClick="startDMTest"-->
+        <!--android:background="@drawable/normalbutton_background"-->
+        <!--android:textColor="@drawable/normalbutton_textcolor"-->
+        <!--android:text="设备管理（禁用-恢复）"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:gravity="center"-->
+        <!--android:onClick="startThingTest"-->
+        <!--android:background="@drawable/normalbutton_background"-->
+        <!--android:textColor="@drawable/normalbutton_textcolor"-->
+        <!--android:text="物模型"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:onClick="startGatewayTest"
+        android:background="@drawable/normalbutton_background"
+        android:textColor="@drawable/normalbutton_textcolor"
+        android:text="网关接入示例"/>
+
+
+</LinearLayout>

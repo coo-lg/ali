@@ -1,0 +1,17 @@
+com.aliyun.alink.dm.api
+com.aliyun.alink.dm.model
+com.aliyun.alink.dm.shadow
+com.aliyun.alink.linkkit.api
+com.aliyun.alink.linksdk.channel.gateway.api
+com.aliyun.alink.linksdk.channel.gateway.api.subdevice
+com.aliyun.alink.linksdk.cmp.api
+com.aliyun.alink.linksdk.cmp.connect.channel
+com.aliyun.alink.linksdk.cmp.connect.hubapi
+com.aliyun.alink.linksdk.cmp.core.base
+com.aliyun.alink.linksdk.cmp.core.listener
+com.aliyun.alink.linksdk.tmp.api
+com.aliyun.alink.linksdk.tmp.device.payload
+com.aliyun.alink.linksdk.tmp.devicemodel
+com.aliyun.alink.linksdk.tmp.listener
+com.aliyun.alink.linksdk.tmp.utils
+com.aliyun.alink.linksdk.tools

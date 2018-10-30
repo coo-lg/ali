@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ULink</string>
+    <string name="title_home">首页</string>
+    <string name="title_scene">场景</string>
+    <string name="title_my_info">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

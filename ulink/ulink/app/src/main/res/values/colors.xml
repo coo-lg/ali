@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="color_gray">#CCCCCC</color>
+    <color name="color_tranblack">#55000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_white_gray">#FCFCFC</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="scancolor">#4f99ee00</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <color name="color_4D4D4D">#4D4D4D</color>
+    <color name="color_C64D4D4D">#C64D4D4D</color>
+    <color name="color_8F8E94">#8F8E94</color>
+    <color name="color_ED001D">#ED001D</color>
+    <color name="color_1F6BC4">#1F6BC4</color>
+    <color name="color_EFEEF1">#EFEEF1</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_EFEFEF">#EFEFEF</color>
+    <color name="color_47C1DF">#47C1DF</color>
+    <color name="color_9B9B9B">#9B9B9B</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="color_F6F6F6">#F7F7F7</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_EDEDED">#EDEDED</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_1FC88B">#1FC88B</color>
+</resources>

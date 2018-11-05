@@ -1,0 +1,28 @@
+{
+    "gateway": {
+        "productKey": "",
+        "deviceName": "",
+        "productSecret": "",
+        "deviceSecret": ""
+    },
+    "subDevice": [
+        {
+            "productKey": "",
+            "deviceName": ""
+        },
+        {
+            "productKey": "",
+            "deviceName": ""
+        },
+        {
+            "productKey": "",
+            "deviceName": ""
+        }
+    ],
+"device": {
+    "productKey": "a1ehw3N6jN9",
+    "productSecret": "ij5TJdsLf9dVtTh7",
+    "deviceName": "uKTJ_4G",
+    "deviceSecret": "vMSECq9fC3tbzrskGE310Tj8zYYxlZs5"
+}
+}

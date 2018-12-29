@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.aliyun.alink.devicesdk.demo">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="com.aliyun.alink.devicesdk.app.DemoApplication"
         android:allowBackup="true"
@@ -21,12 +23,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.aliyun.alink.devicesdk.demo.ControlPannelActivity"/>
-        <activity android:name="com.aliyun.alink.devicesdk.demo.LabelActivity"/>
-        <activity android:name="com.aliyun.alink.devicesdk.demo.COTAActivity"/>
-        <activity android:name="com.aliyun.alink.devicesdk.demo.LightExampleActivity"/>
-        <activity android:name="com.aliyun.alink.devicesdk.demo.ShadowActivity"/>
+        <activity android:name=".ControlPannelActivity" />
+        <activity android:name=".LabelActivity" />
+        <activity android:name=".COTAActivity" />
+        <activity android:name=".LightExampleActivity" />
+        <activity android:name=".ShadowActivity" />
         <activity android:name=".GatewayActivity" />
         <activity android:name=".SubDeviceControlPannelActivity" />
+        <activity android:name=".TriadSettingActivity"></activity>
     </application>
+
 </manifest>

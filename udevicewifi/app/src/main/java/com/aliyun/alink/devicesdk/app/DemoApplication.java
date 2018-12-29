@@ -204,10 +204,17 @@ public class DemoApplication extends Application {
                 mDeviceInfoData.gateway = null;
                 mDeviceInfoData.subDevice = null;
 
-                productKey = mDeviceInfoData.device.productKey;
-                deviceName = mDeviceInfoData.device.deviceName;
-                deviceSecret = mDeviceInfoData.device.deviceSecret;
-                productSecret = mDeviceInfoData.device.productSecret;
+//                productKey = mDeviceInfoData.device.productKey;
+//                deviceName = mDeviceInfoData.device.deviceName;
+//                deviceSecret = mDeviceInfoData.device.deviceSecret;
+//                productSecret = mDeviceInfoData.device.productSecret;
+
+
+                SharedPreferences settings = getSharedPreferences("setting", 0);
+                productKey = settings.getString("ProductKey","");
+                productSecret = settings.getString("ProductSecret","");
+                deviceName = settings.getString("DeviceName","");
+                deviceSecret = settings.getString("DeviceSecret","");
 
             } else {
                 throw new RuntimeException("DFileFormatError");

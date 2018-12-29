@@ -3,9 +3,17 @@ package com.aliyun.alink.devicesdk.demo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.View;
 
 import com.aliyun.alink.devicesdk.app.DemoApplication;
+import com.aliyun.alink.devicesdk.app.DeviceInfoData;
+import com.google.gson.Gson;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 
 /*
@@ -46,6 +54,11 @@ public class DemoActivity extends BaseActivity {
             return;
         }
         Intent intent = new Intent(this, ControlPannelActivity.class);
+        startActivity(intent);
+    }
+
+    public void triadSetting(View view) {
+        Intent intent = new Intent(DemoActivity.this, TriadSettingActivity.class);
         startActivity(intent);
     }
 

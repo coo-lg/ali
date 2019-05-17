@@ -211,10 +211,10 @@ public class DemoApplication extends Application {
 
 
                 SharedPreferences settings = getSharedPreferences("setting", 0);
-                productKey = settings.getString("ProductKey","");
-                productSecret = settings.getString("ProductSecret","");
-                deviceName = settings.getString("DeviceName","");
-                deviceSecret = settings.getString("DeviceSecret","");
+                productKey = settings.getString("ProductKey","aaaa");
+                productSecret = settings.getString("ProductSecret","aaaa");
+                deviceName = settings.getString("DeviceName","aaaa");
+                deviceSecret = settings.getString("DeviceSecret","aaaa");
 
             } else {
                 throw new RuntimeException("DFileFormatError");

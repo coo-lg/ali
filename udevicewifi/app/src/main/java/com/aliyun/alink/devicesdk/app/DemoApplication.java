@@ -204,18 +204,32 @@ public class DemoApplication extends Application {
                 mDeviceInfoData.gateway = null;
                 mDeviceInfoData.subDevice = null;
 
-//                productKey = mDeviceInfoData.device.productKey;
-//                deviceName = mDeviceInfoData.device.deviceName;
-//                deviceSecret = mDeviceInfoData.device.deviceSecret;
-//                productSecret = mDeviceInfoData.device.productSecret;
 
 
                 SharedPreferences settings = getSharedPreferences("setting", 0);
-                productKey = settings.getString("ProductKey","aaaa");
-                productSecret = settings.getString("ProductSecret","aaaa");
-                deviceName = settings.getString("DeviceName","aaaa");
-                deviceSecret = settings.getString("DeviceSecret","aaaa");
+                productKey = settings.getString("ProductKey", null);
+                productSecret = settings.getString("ProductSecret", null);
+                deviceName = settings.getString("DeviceName", null);
+                deviceSecret = settings.getString("DeviceSecret", null);
 
+                if (null == deviceName) {
+                    productKey = mDeviceInfoData.device.productKey;
+                    deviceName = mDeviceInfoData.device.deviceName;
+                    deviceSecret = mDeviceInfoData.device.deviceSecret;
+                    productSecret = mDeviceInfoData.device.productSecret;
+
+                    try {
+                        SharedPreferences userSettings = getSharedPreferences("setting", 0);
+                        SharedPreferences.Editor editor = userSettings.edit();
+                        editor.putString("ProductKey", productKey);
+                        editor.putString("ProductSecret", productSecret);
+                        editor.putString("DeviceName", deviceName);
+                        editor.putString("DeviceSecret", deviceSecret);
+                        editor.commit();
+                    } catch (Exception e) {
+                        Log.e(TAG, "getDeviceInfoFrom: e", e);
+                    }
+                }
             } else {
                 throw new RuntimeException("DFileFormatError");
             }

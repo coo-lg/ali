@@ -1,22 +1,22 @@
 {
     "gateway": {
-        "productKey": "",
-        "deviceName": "",
-        "productSecret": "",
-        "deviceSecret": ""
+        "productKey": "a1uSLZSYSOK",
+        "deviceName": "TGateWAY",
+        "productSecret": "lMZ9ApGCcDPc1Nxp",
+        "deviceSecret": "615eee26e7321b86af01b4c126bc4857"
     },
     "subDevice": [
         {
-            "productKey": "",
-            "deviceName": ""
+            "productKey": "a1aYwZ8qN2L",
+            "deviceName": "TSubDeviceA"
         },
         {
-            "productKey": "",
-            "deviceName": ""
+            "productKey": "a1aYwZ8qN2L",
+            "deviceName": "TSubDeviceB"
         },
         {
-            "productKey": "",
-            "deviceName": ""
+            "productKey": "a1aYwZ8qN2L",
+            "deviceName": "TSubDeviceC"
         }
     ],
 "device": {
